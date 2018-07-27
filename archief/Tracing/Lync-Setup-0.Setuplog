@@ -1,0 +1,676 @@
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: ********************************************************************************
+********************************************************************************
+#######  module=OCSetupLauncher flavor=fre version=4.0.7577.0 ######
+************************************************************************************************************************
+****************************************
+
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: CSetupCmd::StartLog (line 41): Tracing enabled
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: CSetupCmd::ParseCommandLine Started (line 263)
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: CSetupCmd::ParseCommandLine (line 271): Getting default folder.
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: CSetupCmd::ParseCommandLine (line 274): Calling SHGetFolderPath.
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: CSetupCmd::ParseCommandLine (line 295): Appending default folder.
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: CSetupCmd::ParseCommandLine (line 303) Command line=''
+01/22/2016|19:41:57.461 E3C:DB4 INFO  :: CSetupCmd::ParseCommandLine (line 452): Installing with Full UX
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: CSetupDlg::OnInitDialog Started (line 79)
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: CreateEULALink Started (line 640)
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: CreateEULALink (line 658): Reading OCSetup Directory
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadOCSetupDirectory Started (line 2646)
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadOCSetupDirectory (line 2650): Reading UNPACK_LOCATION_REGISTRY from Registry
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadRegistryString Started (line 2719)
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadRegistryString (line 2733) Path='SOFTWARE\Microsoft\Communicator'
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadRegistryString (line 2741) Key='TempDirectory'
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadRegistryString (line 2753): Checking the value if we have a valid handle.
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadRegistryString (line 2756): Checking value.
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadRegistryString (line 2760) pszValue='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadRegistryString Finished (line 2771)
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadOCSetupDirectory (line 2657) OCSetupDirectory='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: ReadOCSetupDirectory Finished (line 2661)
+01/22/2016|19:41:57.476 E3C:DB4 INFO  :: CreateEULALink Finished (line 675)
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall Started (line 361)
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 363): Set m_installInProgress = true
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 366): Disable the Install Button
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 369): Disable the Browse Button
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 372): Hide OK Button
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 375): Show and set focus on Cancel Button
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 379): Enable the Cancel Button
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 383): Show the Progress Bar
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 387): Clear the Progress Text
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 397): User has not selected to enable CEIP
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 401): Hide the CEIP option
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall (line 415): DoInstall starting in separate thread.
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnBnClickedInstall Finished (line 422)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: InstallThreadProc Started (line 1695)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: InstallThreadProc (line 1716) Install directory='C:\Program Files (x86)\Microsoft Lync'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: InstallThreadProc (line 1718): Reading OCSetup Directory
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadOCSetupDirectory Started (line 2646)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadOCSetupDirectory (line 2650): Reading UNPACK_LOCATION_REGISTRY from Registry
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadRegistryString Started (line 2719)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadRegistryString (line 2733) Path='SOFTWARE\Microsoft\Communicator'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadRegistryString (line 2741) Key='TempDirectory'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadRegistryString (line 2753): Checking the value if we have a valid handle.
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadRegistryString (line 2756): Checking value.
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadRegistryString (line 2760) pszValue='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadRegistryString Finished (line 2771)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadOCSetupDirectory (line 2657) OCSetupDirectory='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: ReadOCSetupDirectory Finished (line 2661)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: InstallThreadProc (line 1726): Get User Tracing Directory
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: InstallThreadProc (line 1734): Checking Disk Space
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: InstallThreadProc (line 1756): Checking Preconditions
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckPreConditions Started (line 2496)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckPreConditions (line 2499): Checking setup preconditions
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: PostMessageBack Started (line 3922)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: PostMessageBack (line 3925): Posting Message
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: PostMessageBack (line 3928): PostMessage success.
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: PostMessageBack Finished (line 3940)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckPreConditions (line 2502): Calling GetSetupState
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Started (line 456)
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Started (line 464)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetSetupState Started (line 4042)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: Is64ProcessorArchitecture Started (line 3172)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: Is64ProcessorArchitecture Finished (line 3188)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetSetupState (line 4057) State='64BIT_'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsVistaOrLaterOS Started (line 2537)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2541): Calling GetVersionEx
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2546) OSVersion (hr=0x00000006)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2549): OS is Vista or later.
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsVistaOrLaterOS Finished (line 2563)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetSetupState (line 4068) State='64BIT_Vista_'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled Started (line 3946)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3954): Enumerating Products
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage (line 471) strMessage='Checking setup preconditions'
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Finished (line 482)
+01/22/2016|19:41:59.801 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Finished (line 458)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{5CEE3151-0117-4BEF-B4F6-EA0D4B8B5A41}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0011-0000-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-00A1-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-00A1-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0043-0000-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0043-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0043-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0044-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0044-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0054-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0054-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0015-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0015-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0115-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0016-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0016-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0117-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0057-0000-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0018-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0018-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0019-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-0019-0409-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3972) ProductCode='{90140000-001A-0413-1000-0000000FF1CE}'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3976): Outlook found!
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: CheckOutlookInstalled (line 3981): 64 bit Outlook found!
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetSetupState (line 4086) State='64BIT_Vista_Outlook64_'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetRebootPending Started (line 3996)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetRebootPending (line 4009): Checking PendingFileRenameOperations.
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetRebootPending (line 4017) RegQueryValueEx of PendingFileRenameOperations (hr=0x00000002)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetRebootPending (line 4018) PendingFileRenameOperations size='0'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetRebootPending (line 4027): RebootPending is FALSE
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetRebootPending Finished (line 4036)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: GetSetupState (line 4097) State='64BIT_Vista_Outlook64_NoRebootPending_'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsProcessRunning Started (line 151)
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsProcessRunning (line 159) ExeName='outlook.exe'
+01/22/2016|19:41:59.801 E3C:B34 INFO  :: IsProcessRunning (line 176) Enumerating through process, count='80'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\taskhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='taskhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\dwm.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='dwm.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\USBDLM\USBDLM_usr.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='USBDLM_usr.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\explorer.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='explorer.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxtray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxtray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\hkcmd.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='hkcmd.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxpers.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxpers.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\Microsoft Office\Office15\lync.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='lync.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncserver.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncserver.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxsrvc.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxsrvc.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\UdaterUI.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='UdaterUI.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Elaborate Bytes\VirtualCloneDrive\VCDDaemon.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='VCDDaemon.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MOM.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='MOM.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\McTray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='McTray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\VirusScan Enterprise\shstat.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='shstat.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CCC.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='CCC.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncclipboard.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncclipboard.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell_ise.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\SearchFilterHost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='SearchFilterHost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\Mup\campusmp\software\microsft\office\Lync\64bit\LyncSetupVolume.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='LyncSetupVolume.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\OCSetup\OCSetupLauncher.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='OCSetupLauncher.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessRunning Finished (line 200)
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: GetSetupState (line 4109) State='64BIT_Vista_Outlook64_NoRebootPending_NoOutlookRunning_'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessRunning Started (line 151)
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessRunning (line 159) ExeName='Communicator.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessRunning (line 176) Enumerating through process, count='80'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\taskhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='taskhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\dwm.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='dwm.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\USBDLM\USBDLM_usr.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='USBDLM_usr.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\explorer.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='explorer.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxtray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxtray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\hkcmd.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='hkcmd.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxpers.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxpers.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\Microsoft Office\Office15\lync.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='lync.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncserver.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncserver.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxsrvc.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxsrvc.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\UdaterUI.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='UdaterUI.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Elaborate Bytes\VirtualCloneDrive\VCDDaemon.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='VCDDaemon.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MOM.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='MOM.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\McTray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='McTray.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\VirusScan Enterprise\shstat.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='shstat.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CCC.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='CCC.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncclipboard.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncclipboard.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell_ise.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\SearchFilterHost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='SearchFilterHost.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\Mup\campusmp\software\microsft\office\Lync\64bit\LyncSetupVolume.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='LyncSetupVolume.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\OCSetup\OCSetupLauncher.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='OCSetupLauncher.exe'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: IsProcessRunning Finished (line 200)
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: CheckProductInstalled Started (line 3695)
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: CheckProductInstalled (line 3701) Checking MajorVersion='4'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: CheckProductInstalled (line 3702) Checking MinorVersion='0'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: CheckProductInstalled (line 3703) Checking BuildVersion='7577'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: CheckProductInstalled (line 3710) Searching for Product code for UpgradeCode='{A859ED42-A2CC-4F95-B084-2D8383B566A7}'
+01/22/2016|19:41:59.816 E3C:B34 INFO  :: CheckProductInstalled Finished (line 3778)
+01/22/2016|19:42:00.378 E3C:B34 INFO  :: IsWindowsMediaPlayer11Installed (line 1610): Windows Media Player found
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: CheckPreConditions (line 2505): Calling GetSetupStatePreInstallMessage
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: GetSetupStatePreInstallMessage Started (line 4147)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: GetSetupStatePreInstallMessage (line 4149) State='64BIT_Vista_Outlook64_NoRebootPending_NoOutlookRunning_NoCommunicatorRunning_CommunicatorNotInstalled_WindowsMediaPlayer11Installed_'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: GetSetupStatePreInstallMessage (line 4173) MessageID='132'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: GetSetupStatePreInstallMessage Finished (line 4174)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: CheckPreConditions (line 2508): Checking if Precondition failed.
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: CheckPreConditions Finished (line 2530)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS Started (line 2537)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2541): Calling GetVersionEx
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2546) OSVersion (hr=0x00000006)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2549): OS is Vista or later.
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS Finished (line 2563)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Started (line 967)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Started (line 151)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 159) ExeName='OcPubMgr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 176) Enumerating through process, count='81'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\USBDLM\USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\Microsoft Office\Office15\lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Elaborate Bytes\VirtualCloneDrive\VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\VirusScan Enterprise\shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\Mup\campusmp\software\microsft\office\Lync\64bit\LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\OCSetup\OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Finished (line 200)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess (line 974) Excutable not running.='OcPubMgr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Finished (line 989)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Started (line 967)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Started (line 151)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 159) ExeName='CRecPlayer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 176) Enumerating through process, count='81'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\USBDLM\USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\Microsoft Office\Office15\lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Elaborate Bytes\VirtualCloneDrive\VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\VirusScan Enterprise\shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\Mup\campusmp\software\microsft\office\Lync\64bit\LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\OCSetup\OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Finished (line 200)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess (line 974) Excutable not running.='CRecPlayer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Finished (line 989)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Started (line 967)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Started (line 151)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 159) ExeName='UcMapi.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 176) Enumerating through process, count='81'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\USBDLM\USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\Microsoft Office\Office15\lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Elaborate Bytes\VirtualCloneDrive\VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\VirusScan Enterprise\shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\Mup\campusmp\software\microsft\office\Lync\64bit\LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\OCSetup\OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Finished (line 200)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess (line 974) Excutable not running.='UcMapi.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Finished (line 989)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: Is64ProcessorArchitecture Started (line 3172)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: Is64ProcessorArchitecture Finished (line 3188)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Started (line 967)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Started (line 151)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 159) ExeName='UcMapi64.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning (line 176) Enumerating through process, count='81'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='taskhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='dwm.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\USBDLM\USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='USBDLM_usr.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='explorer.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxtray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='hkcmd.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxpers.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\Microsoft Office\Office15\lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='lync.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncserver.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='igfxsrvc.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='UdaterUI.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Elaborate Bytes\VirtualCloneDrive\VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='VCDDaemon.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='MOM.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\Common Framework\McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='McTray.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\McAfee\VirusScan Enterprise\shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='shstat.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='CCC.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files\RealVNC\VNC Server\vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='vncclipboard.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='powershell_ise.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='conhost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='chrome.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Windows\System32\SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='SearchFilterHost.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\Mup\campusmp\software\microsft\office\Lync\64bit\LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='LyncSetupVolume.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 129) ProcessName='\Device\HarddiskVolume2\Program Files (x86)\OCSetup\OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessSame (line 133) ProcessName Stripped='OCSetupLauncher.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsProcessRunning Finished (line 200)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess (line 974) Excutable not running.='UcMapi64.exe'
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: ShutdownProcess Finished (line 989)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS Started (line 2537)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2541): Calling GetVersionEx
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2546) OSVersion (hr=0x00000006)
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2549): OS is Vista or later.
+01/22/2016|19:42:00.393 E3C:B34 INFO  :: IsVistaOrLaterOS Finished (line 2563)
+01/22/2016|19:42:00.721 E3C:B34 INFO  :: IsMSUpdateRegistered (line 2346): Microsoft Update - Got pUpdateServiceCollection
+01/22/2016|19:42:00.721 E3C:B34 INFO  :: IsMSUpdateRegistered (line 2353): Microsoft Update - Got MSUpdateId
+01/22/2016|19:42:00.721 E3C:B34 INFO  :: InstallThreadProc (line 1903): Microsoft Update - Not Registered
+01/22/2016|19:42:00.721 E3C:B34 INFO  :: CMUOptinDlg::OnInitDialog Started (line 834)
+01/22/2016|19:42:00.721 E3C:B34 INFO  :: CMUOptinDlg::OnInitDialog Finished (line 844)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: CMUOptinDlg::OnOK Started (line 856)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: CMUOptinDlg::OnOK Finished (line 865)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallThreadProc (line 1967): Uninstalling Attendee Lync
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: UninstallAttendeeCommunicator Started (line 2778)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: UninstallAttendeeCommunicator (line 2804): Attendee Lync not installed
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallThreadProc (line 1982): Uninstalling old MUI
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: UninstallOldCommunicatorMUI Started (line 2855)
+01/22/2016|19:42:02.468 E3C:B34 ERROR :: UninstallOldCommunicatorMUI (line 2870) Can't get product code for Communicator MUI (hr=0x00000103)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: UninstallOldCommunicatorMUI (line 2901) (hr=0x00000103)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: UninstallOldCommunicatorMUI Finished (line 2902)
+01/22/2016|19:42:02.468 E3C:B34 ERROR :: InstallThreadProc (line 1986) Communicator MUI uninstallation failed, possibly simply missing.  Please review logfile for details and try again. (hr=0x00000103)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallThreadProc (line 1998): Installing VcRedist
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallVcRedist Started (line 3006)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode Started (line 2950)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode (line 2956) pcwszProductCode='{1F1C2DFC-2D24-3E06-BCB8-725134ADF989}'
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode (line 2957) pcwszSetupDirectory='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode (line 2958) pcwszFileName='\vcredist_x86.exe'
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode (line 2959) pcwszCmdFormat='%s%s /q'
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode (line 2967): Checking if the product is already installed.
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode (line 2982): Installing Vcredist_x86
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: PostMessageBack Started (line 3922)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: PostMessageBack (line 3925): Posting Message
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: PostMessageBack (line 3928): PostMessage success.
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: PostMessageBack Finished (line 3940)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: InstallProductbyProductCode (line 2986): Calling ExecuteProcess for Vcredist_x86.
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: ExecuteProcess Started (line 3790)
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: ExecuteProcess (line 3804) ExecutablePath='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: ExecuteProcess (line 3811) pcwszFileName='\vcredist_x86.exe'
+01/22/2016|19:42:02.468 E3C:B34 INFO  :: ExecuteProcess (line 3818) pcwszCmdFormat='%s%s /q'
+01/22/2016|19:42:02.468 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Started (line 456)
+01/22/2016|19:42:02.468 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Started (line 464)
+01/22/2016|19:42:02.468 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage (line 471) strMessage='Installing Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148'
+01/22/2016|19:42:02.468 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Finished (line 482)
+01/22/2016|19:42:02.468 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Finished (line 458)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: ExecuteProcess (line 3881) dwExitCode != STILL_ACTIVE (hr=0x00000000)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: ExecuteProcess (line 3914) (hr=0x00000000)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: ExecuteProcess Finished (line 3915)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode Finished (line 2999)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: Is64ProcessorArchitecture Started (line 3172)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: Is64ProcessorArchitecture Finished (line 3188)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode Started (line 2950)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode (line 2956) pcwszProductCode='{4B6C7001-C7D6-3710-913E-5BC23FCE91E6}'
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode (line 2957) pcwszSetupDirectory='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode (line 2958) pcwszFileName='\vcredist_x64.exe'
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode (line 2959) pcwszCmdFormat='%s%s /q'
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode (line 2967): Checking if the product is already installed.
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode (line 2982): Installing Vcredist_x86
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: PostMessageBack Started (line 3922)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: PostMessageBack (line 3925): Posting Message
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: PostMessageBack (line 3928): PostMessage success.
+01/22/2016|19:42:16.508 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Started (line 456)
+01/22/2016|19:42:16.508 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Started (line 464)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: PostMessageBack Finished (line 3940)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: InstallProductbyProductCode (line 2986): Calling ExecuteProcess for Vcredist_x86.
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: ExecuteProcess Started (line 3790)
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: ExecuteProcess (line 3804) ExecutablePath='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: ExecuteProcess (line 3811) pcwszFileName='\vcredist_x64.exe'
+01/22/2016|19:42:16.508 E3C:B34 INFO  :: ExecuteProcess (line 3818) pcwszCmdFormat='%s%s /q'
+01/22/2016|19:42:16.508 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage (line 471) strMessage='Installing Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148'
+01/22/2016|19:42:16.508 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Finished (line 482)
+01/22/2016|19:42:16.508 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Finished (line 458)
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: ExecuteProcess (line 3881) dwExitCode != STILL_ACTIVE (hr=0x00000000)
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: ExecuteProcess (line 3914) (hr=0x00000000)
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: ExecuteProcess Finished (line 3915)
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: InstallProductbyProductCode Finished (line 2999)
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: InstallVcRedist Finished (line 3038)
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: InstallThreadProc (line 2021): Installing Silverlight
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: InstallSilverlight Started (line 3044)
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: InstallSilverlight (line 3059) SetupDirectory='C:\Program Files (x86)\OCSetup\'
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: InstallSilverlight (line 3061): Checking if Silverlight is already installed.
+01/22/2016|19:42:26.213 E3C:B34 INFO  :: GetProgramVersion Started (line 4180)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: GetProgramVersion Finished (line 4209)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallSilverlight (line 3078) Silverlight Package major version='4'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallSilverlight (line 3079) Silverlight Package minor version='0'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallSilverlight (line 3080) Silverlight Package build number='50826'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled Started (line 3695)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3701) Checking MajorVersion='4'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3702) Checking MinorVersion='0'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3703) Checking BuildVersion='50826'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3710) Searching for Product code for UpgradeCode='{C1482EA4-07D3-4261-9741-7CEDE6A8C25A}'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3731) Product code found, now Calling MsiGetProductInfo='{89F4137D-6C26-4A84-BDB8-2E5A4BB71E00}'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3737) INSTALLPROPERTY_VERSION='83982130'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3740) Installed MajorVersion='5'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3742) Installed MinorVersion='1'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3744) Installed BuildVersion='30514'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3746) Major Version diff Result='1'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled (line 3764): Setting VER_NEWER
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: CheckProductInstalled Finished (line 3778)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallSilverlight (line 3085): Silverlight already installed.
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallSilverlight Finished (line 3108)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallThreadProc (line 2052) Checking Directory Creation='C:\Program Files (x86)\Microsoft Lync'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: OCCreateDirectory Started (line 1666)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: OCCreateDirectory (line 1672) SHCreateDirectoryEx returned (hr=0x00000000)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: OCCreateDirectory (line 1677) Directory now exists='C:\Program Files (x86)\Microsoft Lync'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: OCCreateDirectory Finished (line 1688)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallThreadProc (line 2061): Installing Lync
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallCommunicator Started (line 3589)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallCommunicator (line 3597): Appending CMD_SUFFIX_RM_DISABLE
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: GetLogFileName Started (line 3228)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: GetLogFileName (line 3243) LogFilename='- Log message too long!
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: GetLogFileName Finished (line 3246)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallCommunicator (line 3614) InstallLync msiCommand=' OCSETUP=1 MSIRESTARTMANAGERCONTROL="Disable" INSTALLDIRECTORY="C:\Program Files (x86)\Microsoft Lync"'
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: InstallCommunicator (line 3616): Installing Microsoft Lync
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: ExecuteMsiWithApi Started (line 3530)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: PostMessageBack Started (line 3922)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: PostMessageBack (line 3925): Posting Message
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: PostMessageBack (line 3928): PostMessage success.
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: PostMessageBack Finished (line 3940)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: ExecuteMsiWithApi (line 3545): Setting MsiSetInternalUI for FullUI/Silent Mode
+01/22/2016|19:42:26.275 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Started (line 456)
+01/22/2016|19:42:26.275 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Started (line 464)
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: ExecuteMsiWithApi (line 3548): Calling MsiSetExternalUI
+01/22/2016|19:42:26.275 E3C:B34 INFO  :: ExecuteMsiWithApi (line 3563) (hr=0x00000000)
+01/22/2016|19:42:26.275 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage (line 471) strMessage='Installing Lync'
+01/22/2016|19:42:26.275 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Finished (line 482)
+01/22/2016|19:42:26.275 E3C:DB4 INFO  :: CSetupDlg::OnProgressMessage Finished (line 458)
+01/22/2016|19:42:26.837 E3C:B34 INFO  :: ExternalUIHandler (line 3430): Resetting progress bar. Script in progress. g_iProgressTotal = 8231.
+01/22/2016|19:42:30.035 E3C:B34 INFO  :: ExternalUIHandler (line 3430): Resetting progress bar. Real install. g_iProgressTotal = 147753752.
+01/22/2016|19:42:30.736 E3C:B34 INFO  :: ExternalUIHandler (line 3460): Setting g_iActionDataStep to 24000.
+01/22/2016|19:42:32.187 E3C:B34 INFO  :: ExternalUIHandler (line 3460): Setting g_iActionDataStep to 13200.
+01/22/2016|19:42:32.203 E3C:B34 INFO  :: ExternalUIHandler (line 3460): Setting g_iActionDataStep to 0.
+01/22/2016|19:42:34.044 E3C:B34 INFO  :: ExternalUIHandler (line 3460): Setting g_iActionDataStep to 13200.
+01/22/2016|19:42:41.921 E3C:B34 INFO  :: ExternalUIHandler (line 3430): Resetting progress bar. Real install. g_iProgressTotal = 1.
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: ExecuteMsiWithApi (line 3575) (hr=0x00000000)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: ExecuteMsiWithApi Finished (line 3579)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallCommunicator (line 3632) (hr=0x00000000)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallCommunicator Finished (line 3635)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallThreadProc (line 2089) UI Suppression mode='0'
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallThreadProc (line 2095) RegDeleteValue for UISuppressionMode (hr=0x00000002)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallThreadProc (line 2213): Full install, do SetEnableCEIP
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: SetEnableCEIP Started (line 4217)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: SetEnableCEIP (line 4224): User has not chosen to enable SQM 
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: SetEnableCEIP Finished (line 4242)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallThreadProc (line 2237): - Log message too long!
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: IsVistaOrLaterOS Started (line 2537)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2541): Calling GetVersionEx
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2546) OSVersion (hr=0x00000006)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: IsVistaOrLaterOS (line 2549): OS is Vista or later.
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: IsVistaOrLaterOS Finished (line 2563)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallThreadProc (line 2296) (hr=0x00000000)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallThreadProc (line 2303): - Log message too long!
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: PostMessageBack Started (line 3922)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: PostMessageBack (line 3925): Posting Message
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: PostMessageBack (line 3928): PostMessage success.
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: PostMessageBack Finished (line 3940)
+01/22/2016|19:42:42.093 E3C:B34 INFO  :: InstallThreadProc Finished (line 2321)
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::OnInstallFinishedSuccess Started (line 582)
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::OnInstallFinishedSuccess (line 584): Set m_installInProgress = false
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::OnInstallFinishedSuccess (line 587): InstallFinished UX Changes
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges Started (line 527)
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 537): Hide the Progress Bar.
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 541): Hide the EULA view text
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 544): Hide license agreement acceptance text
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 547): Clear the Progress Text
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 550): Hide and Disable the Install Button
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 554): Disable Browse Button
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 557): Hide and Disable Cancel Button
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges (line 561): Show and Enable (if needed) Launch Button
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::InstallFinishedUXChanges Finished (line 569)
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Started (line 464)
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage (line 471) strMessage='Install succeeded.'
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::DisplayStatusMessage Finished (line 482)
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::ShowCloseButton (line 574): Show Enable and set focus on Close Button
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::OnInstallFinishedSuccess (line 617): Show and Enable (if needed) WMP11 link
+01/22/2016|19:42:42.093 E3C:DB4 INFO  :: CSetupDlg::OnInstallFinishedSuccess Finished (line 625)
+01/22/2016|19:43:38.069 E3C:DB4 INFO  :: CSetupDlg::OnOK Started (line 190)
+01/22/2016|19:43:38.084 E3C:DB4 INFO  :: CSetupCmd::ParseCommandLine Finished (line 503)
+01/22/2016|19:43:38.084 E3C:DB4 INFO  :: CSetupCmd::StopLog Started (line 54)
+01/22/2016|19:43:38.084 E3C:DB4 INFO  :: CSetupCmd::StopLog (line 62): StopLogging disabling tracing
